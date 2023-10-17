@@ -2,6 +2,8 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
+USE blog;
+
 CREATE TABLE `posts` (
   `id` int(11) NOT NULL,
   `title` varchar(255) NOT NULL,
