@@ -7,7 +7,7 @@ class Comment
     public $comment;
 }
 
-function getComments(string $post): array
+function getComments(string $post)
 {
     $database = commentDbConnect();
     $statement = $database->prepare(

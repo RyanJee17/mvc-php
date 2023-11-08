@@ -1,4 +1,4 @@
-<?php
+    <?php
 
 require_once('src/controllers/add_comment.php');
 require_once('src/controllers/homepage.php');
